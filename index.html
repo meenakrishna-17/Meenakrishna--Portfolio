@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="Images\image.png" alt="avatar" width="80" height="100%">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Meenakrishna">Meenakrishna B</h1>
+                    <p class="title">Full Stack Development</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="meenakrish1103@gmail.com" class="contact-link">meenakrish1103@gmail.comm</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+919994829519" class="contact-link">+91 9994 829 519</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2004-03-30">November 17, 2003</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Dindigul , TamilNadu, India</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.linkedin.com/in/meenakrishna-balamurugan" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://github.com/meenakrishna-17" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <!--<li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>-->
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I'm a flexible and forward-thinking professional who loves taking on challenges and finding creative solutions using technology. With strong leadership skills and other perspective, looking for ways to innovate and contribute to meaningful growth.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm Interested in!</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Data Analyst</h4>
+                                <p class="service-item-text">I Perform data cleaning and transformation using Python and SQL; applied statistical analysis to derive actionable insights, and developed interactive dashboards with Power BI/Tableau to support data-driven decision-making.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Programming Language</h4>
+                                <p class="service-item-text">I Solved algorithmic and real-world problems using Java, Python, and C by implementing efficient, scalable, and well-documented solutions across various domains including data structures, algorithms, and system-level programming.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Machine Learning</h4>
+                                <p class="service-item-text">I had Hands-on experience in developing Machine Learning models using Python, with a focus on building intelligent, data-driven solutions and implementing real-time data processing pipelines.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Development</h4>
+                                <p class="service-item-text">I make High-quality Developing the sites at the professional level.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+<section class="testimonials">
+  <h3 class="h3 testimonials-title">Certifications</h3>
+  <ul class="clients-list has-scrollbar">
+    <li class="testimonials-item" data-images='["certi/PSNA Logo.png", "certi/PSNA Paper presentation (first).jpg", "certi/PSNA Escape Room (Second).jpg", "certi/PSNA Paper Presentation IIC Cell.jpg"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="certi\PSNA Logo.png" width="230" alt="PSNA">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["Images/udemy.png", "certi/udemy cloud certificate.png","certi/Udemy HTML,CSS & Booststrap.jpg"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/udemy.png" width="220" alt="Udemy">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["certi/Zoho Logo.jpg", "certi/Zoho Young Creators Program.jpg"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="certi/Zoho Logo.jpg" width="180" alt="Zoho">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["certi/Delottie Logo.png", "certi/Deloitte.jpg"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="certi/Delottie Logo.png" width="160" alt="Deloitte">
+        </a>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-images='["Images/spokentut-Photoroom.png", "certi/Spoken tutorial PHP & MySQL.jpg", "certi/Spoken tutorial Bootstrap.jpg"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="Images/spokentut-Photoroom.png" width="200" alt="Spoken Tutorial">
+        </a>
+      </div>
+    </li>
+
+        <li class="testimonials-item" data-images='["certi/Certifications.png", "certi/Codechef java.jpg", "certi/Innofest VET.jpg","certi/TANCAM(KIT).jpg","certi/Visai.jpg","certi/cad cae.jpg","certi/Student_BIS_.jpeg"]'>
+      <div class="content-card">
+        <a href="#" class="cert-link">
+          <img src="certi/Certifications.png" width="150" alt="Certificate">
+        </a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Popup Modal -->
+<div class="popup-overlay" id="popup-overlay">
+  <div class="popup-box">
+    <span class="close-btn" id="popup-close">&times;</span>
+    <div id="popup-content"></div>
+  </div>
+</div>
+    
+  </ul>
+</section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Badges</h3>
+
+                    <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <p class="contact-title">Privacy Enhancing Computing</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_fe95efcf-5b92-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">Gen AI in the Real World: Mental Health</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_3ee7d363-5bc0-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">Tips and Top ChatGPT Prompt Badge</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_f82b04f1-5c85-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <p class="contact-title">An Overview of Distributed Systems</p>
+                            <a href="https://www.futureskillsprime.in/iDH/user/user_badge/view/32914_BG_b6689b77-5bb8-11f0-bdec-005056b48b54"><img src="Images\cc2.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">PSNA College of Engineering and Technology</h4>
+                            <span>2022 - 2026</span>
+                            <p class="timeline-text">I am Pursuing a degree in Artificial Intelligence and Data Science with a strong foundation in programming, AI principles, databases, software engineering, and data-driven problem solving. Developed core skills in collaboration, communication, and interdisciplinary project work through academic and practical engagements.</p>
+                           <span>CGPA - 8.08</span> 
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Annamalaiar Mills Girls' Hr.Sec School</h4>
+                            <span>2020 - 2022</span>
+                            <p class="timeline-text">I Completed Higher Secondary education with a specialization in Computer Science, gaining foundational knowledge in programming, algorithms, and logical thinking, while strengthening technical and problem-solving skills.</p>
+                            <span>Percentage - 80%</span>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Annamalaiar Mills Girls' Hr.Sec School</h4>
+                            <span>2019 - 2020</span>
+                            <p class="timeline-text">I Completed SSLC with a strong emphasis on discipline, responsibility, and active participation in school activities, which contributed to the early development of leadership, teamwork, and communication skills.</p>
+                            <span>Percentage - 70%</span>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Internship</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Eagle-HiTech Softclou Private Limited</h4>
+                            <span>June 2025 - July 2025</span>
+                            <h3 class="h3 timeline-item-title">Domain - Full Stack Development</h3>
+                            <p class="timeline-text">Hands-on Experience in Full Stack Development using React and MongoDB, with projects skills in building responsive UIs, REST APIs, and deploying web apps.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">HCL InfoSystem</h4>
+                            <span>January 2025 - February 2025</span>
+                             <h3 class="h3 timeline-item-title">Domain - Data Analyst</h3>
+                            <p class="timeline-text">Exploring the various data visualization Tools like PowerBI, Tableau</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">UI/UX Design</h5>
+                                <data value="85">85%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Development</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java Program</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Python Program</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Data Analyst</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">SQL</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Machine Learning</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+                        <li class="filter-item"><button data-filter-btn>Data visualization</button></li>
+                    </ul>
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Data visualization</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        
+                        <li class="project-item active" data-filter-item data-category="web Design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="certi/Agro Data Dynasty.png" alt="Data Dynasty" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Agro Data Dynasty</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="certi/Aqua Hustlers.png" alt="Aqua Hustlers" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Aqua Hustlers</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="certi/Vision_X.png" alt="Vision_X" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Vision_X</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="certi/Hexa Prospers.png" alt="Hexa Prospers" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Hexa Prosper</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="certi/EmpowerHer.png" alt="EmpowerHer" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">EmpowerHer</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+            
+                    <!---
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="EmpowerHer.png" alt="EmpowerHer" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">EmpowerHer</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+                    -->
+                        <li class="project-item active" data-filter-item data-category="data visualization">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="certi/Retail store sales analysis.png" alt="Retail Store Sales Analysis" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Retail Store Sales Analysis</h3>
+                                <p class="project-category">Data visualization</p>
+                            </a>
+                        </li>
+<!--
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <img src="https://i.postimg.cc/7LxNsSQv/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>-->
+                    </ul>
+                </section>
+            </article>
+
+<!-- Portfolio Popup Modal -->
+<div class="portfolio-popup-overlay" id="portfolio-popup">
+  <div class="portfolio-popup-box">
+    <span class="portfolio-popup-close" id="portfolio-popup-close">&times;</span>
+    <div class="portfolio-thumbnails" id="portfolio-thumbnails"></div>
+    <div class="portfolio-preview" id="portfolio-preview"></div>
+  </div>
+</div>
+
+          <!-- Lightbox overlay -->
+        <div class="lightbox-overlay" id="lightbox">
+             <img id="lightbox-img" src="" alt="project full view">
+        </div>
+
+
+
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                    <figure class="blog-banner-box">
+                                        <img src="certi/EmpowerHer.png" alt="Design conferences in 2024" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-08-12">August 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">EmpowerHer</h3>
+                                    <p class="blog-text">In 2024, Legal issues digital advancement in society, particularly mobile application and intelligent powered system, offer an innovative approach to bridge this gap by creating accessible, reliable, and secure legal help platforms. Most common problem include domestic violence, workplace harassment, and other family disputes. The solution addresses the issues with remarkable accuracy.AI chatbot developed using machine learning algorithms understands user queries and provides a step-by-step procedure on legal rights. Integrated with MongoDB for secure data management. The rating and review system provides the user to rate the advocates with their involvement. Thus, combining legal support and digital technology to empower women and promote awareness.</p>
+                                </div>
+                            </a>
+                        </li>
+                            <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="certi/Hexa Prospers.png" alt="2023 UI interactions" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-07-27">July 27, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Hexa Prospers</h3>
+                                    <p class="blog-text">Agri Connect is a Direct Market Access app designed to connect farmers directly with retailers and consumers, removing middlemen exploitation. The app ensures secure, transparent transactions with dynamic pricing and multi-language support. Farmers can sign up using verified credentials like Aadhar, PAN, and bank details, ensuring authenticity and trust. Retailers can view available produce, place orders, or request items, and even negotiate prices. Each transaction is tracked via order ID from placement to delivery, ensuring accountability. Payment is made only after order acceptance and delivery confirmation by both parties. The platform boosts farmer income, empowers buyers, and enhances supply chain efficiency. It supports government policies and provides data-driven insights for better decision-making.</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="certi/Vision_X.png" alt="Best fonts every designer" loading="lazy">
+                                </figure>
+
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-06-21">June 21, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Vision_X</h3>
+                                    <p class="blog-text">Blind and visually impaired individuals face numerous challenges in daily life, including navigating unfamiliar environments, recognizing objects, people, and currency, and reading text. Current assistive technologies address only specific needs, leaving significant gaps in their ability to interact independently and safely with the world.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="certi/Aqua Hustlers.png" alt="Design digest #80" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2024-01-01">January 1, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Aqua Hustlers</h3>
+                                    <p class="blog-text"> Developed a smart aquaculture monitoring system to ensure early detection of fish diseases. The system uses pH and temperature sensors to track water quality, a motion sensor to monitor fish activity, and a camera module to analyze fish color for signs of illness. This IoT-based solution helps fish farmers take preventive actions and maintain a healthy aquatic environment.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="certi/Agro Data Dynasty.png" alt="The forgotten art of spacing" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Project</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-06-28">June 28, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Agro Data Dynasty</h3>
+                                    <p class="blog-text">Developed a data-driven solution to analyze crop patterns based on rainfall variations across India. By leveraging tools like IBM Cognos and Python, the system visualizes the relationship between rainfall levels and suitable crop types. It classifies regions into high, moderate, and low rainfall zones, recommending crops that thrive under those conditions. This approach supports efficient water usage, sustainable farming, and improved crop planning, ensuring food security and optimized agricultural land use for the growing population.</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3924.865249456838!2d77.9775471!3d10.3526579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00aa53f5e4d31f%3A0xb57baa357eeb3c56!2sAsari%20St%2C%20Tamil%20Nadu%20624003!5e0!3m2!1sen!2sin!4v1751987805807!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+<form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+<input type="hidden" name="access_key" value="2a64c0a9-c030-45b1-b78e-677f1cb79dce">
+
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+  </div>
+
+  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+  <button class="form-btn" type="submit" data-form-btn>
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Send Message</span>
+  </button>
+</form>
+
+<div id="popup-message" style="display:none; padding: 10px; background: hsl(45, 100%, 72%); color: rgb(0, 0, 0); margin-top: 15px; border-radius: 5px;">
+Message Sent!
+</div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
